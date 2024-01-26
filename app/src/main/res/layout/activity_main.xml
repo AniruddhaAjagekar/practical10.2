@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student registration system"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:-"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+  <EditText
+      android:id="@+id/ede1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Enter your name"
+      android:layout_below="@id/txt1"
+      android:layout_toRightOf="@id/txt2"
+      android:layout_marginLeft="5dp"
+      android:minHeight="48dp"
+      android:ems="14"/>
+
+  <TextView
+      android:id="@+id/txt3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Class:-"
+      android:textSize="22dp"
+      android:textStyle="bold"
+      android:layout_below="@+id/txt2"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"/>
+
+  <EditText
+      android:id="@+id/ede2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Enter your class"
+      android:layout_below="@id/ede1"
+      android:layout_toRightOf="@id/txt2"
+      android:layout_marginLeft="5dp"
+      android:layout_marginTop="15dp"
+      android:minHeight="48dp"
+      android:ems="14"/>
+
+  <TextView
+      android:id="@+id/txt4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Email address:-"
+      android:textSize="22dp"
+      android:textStyle="bold"
+      android:layout_below="@+id/txt3"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"/>
+
+  <EditText
+      android:id="@+id/ede3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Enter your Email"
+      android:layout_below="@id/ede2"
+      android:layout_toRightOf="@id/txt4"
+      android:layout_marginLeft="5dp"
+      android:minHeight="48dp"
+      android:layout_marginTop="15dp"
+      android:ems="14"/>
+
+  <TextView
+      android:id="@+id/txt5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Village:-"
+      android:textSize="22dp"
+      android:textStyle="bold"
+      android:layout_below="@+id/txt4"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="80dp"/>
+
+  <EditText
+      android:id="@+id/ede4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Enter your village"
+      android:layout_below="@id/ede3"
+      android:layout_toRightOf="@id/txt5"
+      android:layout_marginLeft="5dp"
+      android:minHeight="48dp"
+      android:layout_marginTop="40dp"
+      android:ems="14"/>
+
+  <TextView
+      android:id="@+id/txt6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Phone number:-"
+      android:textSize="22dp"
+      android:textStyle="bold"
+      android:layout_below="@+id/txt5"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"/>
+
+  <EditText
+      android:id="@+id/ede5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Enter your number"
+      android:layout_below="@id/ede4"
+      android:layout_toRightOf="@id/txt6"
+      android:layout_marginLeft="5dp"
+      android:minHeight="48dp"
+      android:layout_marginTop="15dp"
+      android:ems="14"/>
+
+  <Button
+    android:id="@+id/btnn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Login"
+      android:textSize="23dp"
+      android:layout_below="@+id/txt6"
+      android:layout_marginTop="30dp"
+      android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
